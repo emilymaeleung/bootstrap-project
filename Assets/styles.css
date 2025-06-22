@@ -1,0 +1,75 @@
+:root {
+    --primary-color: #0B372D;
+    --secondary-color: #A4EFDD;
+    --tertiary-color: #FFFAEF;
+    --accent-color: #EDA3C6;
+    --highlight-color: #F2C135;
+    --white: #ffffff;
+    --primary-font: 'Poppins light', sans-serif;
+    --secondary-font: 'Modak', cursive;
+}
+
+body {
+    font-family: var(--primary-font);
+    margin: 0;
+    padding: 0;
+    background-color: var(--tertiary-color);
+}
+
+.navbar-brand {
+    font-family: var(--secondary-font);
+    font-size: 3em; 
+    color: var(--secondary-color) !important; 
+}
+
+.navbar-toggler {
+    background-color: var(--primary-color) !important;
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='%23A4EFDD' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important; /* Change color here */
+}
+
+.btn.btn-primary {
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+    border-radius: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #000000;
+}
+
+.btn.btn-primary:hover {
+    background-color: #cd8cac;
+    border-color: #cd8cac;
+}
+
+.navbar {
+    background-color: var(--primary-color) !important;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.navbar-nav .nav-link {
+    color: var(--secondary-color) !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: var(--white) !important;
+}
+
+
+main {
+    background-color: #0B372D;
+    color: #A4EFDD;
+}
+
+h1 {
+    font-family: var(--secondary-font);
+    font-size: 128px;
+}
+
+.banner-text {
+    font-size: 30px;
+}
