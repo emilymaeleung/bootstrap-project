@@ -47,8 +47,8 @@ body {
 
 .navbar {
     background-color: var(--primary-color) !important;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .navbar-nav .nav-link {
@@ -70,19 +70,62 @@ h1 {
 }
 
 
-
-.boxes {
+.box-card {
+    padding: 6%;
+    border-radius: 10px; 
+    height: 100%; 
     display: flex;
-    flex-wrap: wrap;
-    padding: 10px;
-    gap: 20px;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start; 
 }
 
-.box {
-    background-color: var(--tertiary-color);
-    padding: 4%;
-    box-shadow: 0px 0px 15px rgba(24, 26, 60, 0.171);
-    border-radius: 10px;
-    flex: 1 1 300px;
+
+.box1 {
+    background-color: var(--accent-color);
+    border-radius: 34px;
+    color: var(--white); 
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.box1:hover {
+    transform: scale(1.05);
+}
+
+.box2:hover {
+    transform: scale(1.05);
+}
+
+.box3:hover {
+    transform: scale(1.05);
+}
+
+.box2 {
+    background-color: var(--highlight-color);
+    border-radius: 34px;
+    color: var(--white);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.box3 {
+    background-color: #81D9C4;
+    border-radius: 34px;
+    color: var(--white);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.box-card h3 {
+    font-family: var(--secondary-font);
+    font-size: 50px;
+    margin-bottom: 1rem; 
+}
+
+.box-card p {
+    margin-bottom: auto;
+}
+
+.box-card .icon {
+    max-width: 50px;
+    height: auto; 
+    margin-top: 3rem; 
+    align-self: flex-end; 
 }
