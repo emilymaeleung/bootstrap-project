@@ -69,6 +69,10 @@ h1 {
     font-family: var(--secondary-font);
 }
 
+h2 {
+    font-family: var(--secondary-font);
+    font-size: 40px;
+}
 
 .box-card {
     padding: 6%;
@@ -128,4 +132,8 @@ h1 {
     height: auto; 
     margin-top: 3rem; 
     align-self: flex-end; 
+}
+
+img {
+    border-radius: 34px;
 }
