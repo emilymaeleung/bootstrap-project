@@ -181,3 +181,28 @@ article {
 section {
     max-width: 80%;
 }
+
+footer {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding-top: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.list-unstyled {
+    line-height: 2.5;
+}
+
+h5 {
+    font-family: poppins;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.input-group {
+    max-width: 100%;
+    border: 10px;
+}
